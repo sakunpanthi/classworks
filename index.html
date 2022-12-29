@@ -1,49 +1,77 @@
-# classworks
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
-</head>
-<style>
-    .contact{
-        padding: 10px;
-    }
-   
-    .name{
-        line-height: 3;
-    }
-    .email{
-        line-height: 3;
-    }
-   
-    .sub_ph{
-        line-height: 3;
-    }
+<html>
  
-</style>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .courses {
+            display: flex;
+        }
+ 
+        .computer {
+            margin-left: 2%;
+            text-align: justify;
+        }
+ 
+        .mechanical {
+            margin-left: 6%;
+            text-align: justify;
+        }
+ 
+        .civil {
+            margin-left: 6%;
+            margin-right: 2%;
+            text-align: justify;
+        }
+    </style>
+</head>
+ 
 <body>
-    <div class="contact">
-        <h1>Contact us</h1>
-        <form action="backend.php">
-            <div class="name">
-            <label for="Name"></label>
-            <input type="text" name="UserName" id="Name" placeholder="Full Name">
-            </div>
-            <div class="email">
-            <label for="Email"></label>
-            <input type="email" name="UserMail" id="Email" placeholder="Email">
-            </div>
-            <div class="sub_ph">
-            <label for="Subject"></label>
-            <input type="text" name="Query" id="Subject" placeholder="Subject">
-            <label for="Phone"></label>
-            <input type="tel" name="UserPhone" id="Phone" pattern="[0-9][10]" placeholder="Phone">
-            </div>
-            <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-        </form>
+    <div class="w3-container w3-red">
+        <h1>Engineering courses</h1>
     </div>
+ 
+    <div class="courses">
+        <div class="computer">
+            <h1>Computer Engineering</h1>
+            <p>Computer engineering (CoE or CpE) is a branch of electrical engineering and computer science that
+                integrates several fields of computer science and electronic engineering required to develop computer
+                hardware and software.[1] Computer engineers not only require training in electronic engineering,
+                software design, and hardware-software integration, but also in software engineering.
+            </p>
+            <img src="https://www.shutterstock.com/image-photo/modern-desktop-computer-wireless-keyboard-260nw-55573504.jpg"></img>
+        </div>
+ 
+        <div class="mechanical">
+                <h1>Mechanical Engineering</h1>
+                <p1>Mechanical engineering is the study of physical machines that may involve force and movement. It is
+                    an
+                    engineering branch that combines engineering physics and mathematics principles with materials
+                    science,
+                    to design, analyze, manufacture, and maintain mechanical systems.[1] It is one of the oldest and
+                    broadest of the engineering branches.
+                </p1>
+                <br>
+                <br>
+                <img height="250" width="250" src="https://media.gettyimages.com/id/941796726/photo/confident-male-engineer-examining-car-chassis.jpg?s=612x612&w=gi&k=20&c=ZdG2cbptw0pj2zM9vmCI8NkenMFlBd--wBPCR7AD5-s="></img>
+        </div>
+ 
+        <div class="civil">
+            <h1>Civil Engineering</h1>
+            <p1>
+                    Civil engineering is a professional engineering discipline that deals with the design, construction,
+                    and
+                    maintenance of the physical and naturally built environment, including public works such as roads,
+                    bridges, canals, dams, airports, sewage systems, pipelines, structural components of buildings, and
+                    railways.
+ 
+            </p1>
+            <br>
+            <br>
+                <img height="250" width="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Old_Market_Roundabout%2C_Bristol.jpg/1024px-Old_Market_Roundabout%2C_Bristol.jpg">
+            </div>
+        </div>
+    <a href="Contact.html"><button>Contact us</button></a>
 </body>
+ 
 </html>
